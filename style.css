@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+}
+
+/*--------------------------------------------------
+General Styling 
+--------------------------------------------------*/
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+  padding: 1em 0;
+}
+
+p {
+  margin: 0;
+  padding: 1em 0;
+}
+
+img {
+  display: block;
+  border: 0;
+  width: 100%;
+  height: auto;
+}
+
+/* Promo Section */
+
+.logo,
+.site-title {
+  text-align: center;
+}
+
+.logo {
+  font-size: 8em;
+}
+
+.site-title {
+  margin-top: -1em;
+  margin-bottom: 3em;
+}
+/*----------------------------------------------------
+Basic layout
+-----------------------------------------------------*/
+
+.site {
+  max-width: 50em;
+  margin: 0 auto;
+}
+
+/*----------------------------------------------------
+CSS Grid layout 
+-----------------------------------------------------*/
+
+.site {
+  max-width: none;
+  display: grid;
+  grid-template-columns: 15em auto;
+}
+
+.head {
+  grid-column: 1/2;
+}
+
+.feature {
+  grid-column: 2/3;
+}
