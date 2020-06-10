@@ -41,6 +41,36 @@ img {
   margin-top: -1em;
   margin-bottom: 3em;
 }
+
+/* Splash section */
+
+.splash {
+  background: #fff6e5;
+  padding-bottom: 2em;
+}
+
+.splash-content {
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 600px) {
+  .splash-text {
+    columns: 2;
+    column-gap: 2em;
+  }
+
+  .splash-text p {
+    padding-top: 0;
+  }
+}
+
+/* Buckets section */
+
+.buckets {
+  padding: 2em 1em 1em;
+  background: #3e454c;
+}
+
 /*----------------------------------------------------
 Basic layout
 -----------------------------------------------------*/
@@ -67,3 +97,8 @@ CSS Grid layout
 .feature {
   grid-column: 2/3;
 }
+
+.main-area {
+  grid-column: 2/3;
+}
+
